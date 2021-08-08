@@ -12,6 +12,11 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+#matan{
+  color: var(--primary-white);
+  margin-top: 35px;
+}
+
 /* NAVBAR */
 
 nav {

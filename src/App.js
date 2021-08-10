@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Particles from 'react-particles-js';
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
+import Experience from "./components/Experience";
 // import { tsParticles } from "tsparticles";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
     <Header />
     <AboutMe />
     <Skills />
+    <Experience />
     </>
   );
 }

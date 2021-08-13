@@ -6,6 +6,9 @@ import Particles from 'react-particles-js';
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Pofrfolio from "./components/Portfolio";
+// import Testimonials from "./components/Testimonials";
+import Contacts from "./components/Contacts";
 // import { tsParticles } from "tsparticles";
 
 function App() {
@@ -36,6 +39,9 @@ function App() {
     <AboutMe />
     <Skills />
     <Experience />
+    <Pofrfolio />
+    {/* <Testimonials /> */}
+    <Contacts />
     </>
   );
 }

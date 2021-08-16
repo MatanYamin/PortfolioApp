@@ -10,6 +10,7 @@ import Pofrfolio from "./components/Portfolio";
 // import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
 // import { tsParticles } from "tsparticles";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -38,10 +39,11 @@ function App() {
     <Header />
     <AboutMe />
     <Skills />
-    <Experience />
     <Pofrfolio />
+    <Experience />
     {/* <Testimonials /> */}
     <Contacts />
+    <Footer />
     </>
   );
 }

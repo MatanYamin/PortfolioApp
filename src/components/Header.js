@@ -1,19 +1,26 @@
 import React from "react";
 import Typed from "react-typed";
+import cv from "../Matan Yamin.pdf";
+import { Link } from "react-scroll";
 
 const Header = () => {
     return (
-        <div className="header-wraper">
+        <div id="home" className="header-wraper">
             <div className="main-info">
-                <h1>Web Development and website promotions</h1>
+                <br/><br/><br/>
+                <h1>Welcome to my website!</h1>
                 <Typed 
                 className="typed-text"
-                strings={["Web Design", "Web Development", "FullStack programming"]}
+                strings={["Software Engineer", "Web Development", "FullStack Development", "Cloud Services (AWS), Image Processing"]}
                 typeSpeed={40}
                 backSpeed={60}
                 loop
                 />
-                <a href="#" className="btn-main-offer">CONTACT ME</a>
+                <div className="py-4">
+                <a href={cv} className="btn-main-offer" download>Resume</a>
+                <Link offset={-110} to="contacts" href="#"><a className="btn-main-offer2">Contact Me</a></Link>
+                </div>
+                {/* <a href={cv} download>Click to download</a> */}
             </div>
         </div>
     )

@@ -17,7 +17,6 @@ const Contacts = () => {
             templatID,
             {
                 name: data.name,
-                phone: data.phone,
                 email: data.email,
                 subject: data.subject,
                 description: data.description
@@ -35,10 +34,10 @@ const Contacts = () => {
       }
 
     return (
-        <div className="contacts">
+        <div id="contacts" className="contacts">
             <div className="text-center">
             <h1>Contact Me</h1>
-            <p>Please Fill out The Form and describe your request</p>   
+            <p>Please feel free to contact me if you need any further information.</p>   
             <span className="success-message">{successMessage}</span>         
             </div>
             <div className="container">
@@ -61,23 +60,6 @@ const Contacts = () => {
                         </div>
                         <span className="error-message">
                             {errors.name && errors.name.message}
-                        </span>
-                        {/* PHONE INPUT */}
-                        <div className="text-center">
-                        <input
-                        id="phone"
-                        type="text"
-                        className="form-control"
-                        placeholder="Phone Number"
-                        name="phone"
-                        {...register("phone", {
-                            required: "Please enter your phone.",
-                          })}
-                        />
-                        <div className="line"></div>
-                        </div>
-                        <span className="error-message">
-                            {errors.phone && errors.phone.message}
                         </span>
                         {/* EMAIL INPUT */}
                         <div className="text-center">

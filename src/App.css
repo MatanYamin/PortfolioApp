@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
+/**/
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;
@@ -12,6 +12,22 @@
   --primary-black: #000000;
   --primary-transparent-black: rgba(0,0,0,0.7);
   --primary-green: green;
+}
+
+.highlight-link {
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bg-dark {
+  --bs-bg-opacity: 0.8 !important;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+
+#matan{
+  color: var(--primary-white);
+  margin-top: 35px;
 }
 
 body {
@@ -59,7 +75,7 @@ nav ul li {
  }
 }
 
-.navbar-nav > li > a.active,  .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active,  .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
@@ -74,8 +90,9 @@ nav ul li {
   position: relative;
   background: url(wall-and-laptop-background.jpg) no-repeat;
   background-size: cover;
+  /* opacity: 0.82; */
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -126,6 +143,23 @@ nav ul li {
 .btn-main-offer:hover {
   text-decoration: none;
   background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition:  .2s ease-in-out;
+}
+
+.btn-main-offer2 {
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
+  background-color: var(--primary-hover-red);
+}
+
+.btn-main-offer2:hover {
+  text-decoration: none !important;
+  background-color: transparent;
   color: var(--primary-white);
   transition:  .2s ease-in-out;
 }
@@ -328,6 +362,7 @@ nav ul li {
 
 .portfolio-image {
   width: 15rem;
+  height: 8rem;
   border: 1px solid var(--primary-orange);
   padding: 0 0.5rem;
 }
@@ -369,6 +404,10 @@ nav ul li {
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
+}
+
+.popupbox-wrapper {
+  margin-top: 7rem;
 }
 
 /*------------ OVERFLOW BOX ------------------*/
@@ -509,7 +548,7 @@ nav ul li {
 }
 
 .contacts .container {
-  padding: 4rem 10rem;
+  padding: 4rem 0;
 }
 
 .contacts input:focus, .contacts textarea:focus {
@@ -574,6 +613,28 @@ textarea.form-control {
   .contacts p {
     padding: 0 0.4rem;
   }
+}
+
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor:pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
 
 

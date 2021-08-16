@@ -2,10 +2,12 @@ import React from "react";
 import logo from "../logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faCodeBranch } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-scroll";
+import cv from "../Matan Yamin.pdf";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <div className="container">
   <a className="navbar-brand" href="#">
     {/* <img className="logo" src={logo} alt="logo..." /> */}
@@ -18,22 +20,25 @@ const Navbar = () => {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav ms-auto">
       <li className="nav-item active">
-        <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
+        <Link offset={-110} to="home" className="nav-link" href="#">Home <span className="sr-only"></span></Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">About me</a>
+        <Link offset={-110} to="about" className="nav-link" href="#">About</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Skills</a>
+        <Link offset={-110} to="skills" className="nav-link" href="#">Skills</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Experience</a>
+        <Link offset={-110} to="portfolio" className="nav-link" href="#">Portfolio</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Portfolio</a>
+        <Link offset={-110} to="experience" className="nav-link" href="#">Experience</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">Contacts</a>
+        <Link offset={-110} to="contacts" className="nav-link" href="#">Contact</Link>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href={cv} download>Resume</a>
       </li>
     </ul>
   </div>

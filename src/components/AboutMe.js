@@ -1,9 +1,10 @@
 import React from "react";
 import author from "../me.png";
+import { Link } from "react-scroll";
 
 const AboutMe = () => {
   return (
-    <div className="container py-5">
+    <div id="about" className="container py-5">
       <div className="row">
         <div className="col-lg-6 col-xm-12">
           <div className="photo-wrap mb-5">
@@ -13,10 +14,17 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
-            Words words words words words
-             words Words words words words words wordsWords words words words
-              words wordsWords words words words words wordsWords words words words words wordsWords words words
-               words words words
+            Hello there!
+            <br/>
+             My name is Matan Yamin. <br/>
+             I have recently graduated in Software Engineering and I am looking for position in software development.
+             <br/>
+             I'm Highly organized with exceptional commitment to task completion and quality assurance when working with computer software
+              programs.
+              <br/>
+              Check out my latest projects in the <Link offset={-110} className="highlight-link" to="portfolio">Portfolio</Link> section.
+              <br/><br/>
+              <small>BTW: This website built With ReactJS, bootstrap, HTML, CSS on ec2 (AWS).</small>
           </p>
         </div>
       </div>

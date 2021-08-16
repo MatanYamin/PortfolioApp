@@ -13,7 +13,10 @@ const Skills = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faReact} size="2x" /></div>
               <h3>Web Development</h3>
-              <p>Solid background and advanced knowledge in computer development software including ReactJS, HTML5, CSS.</p>
+              <p>Solid background and advanced knowledge in computer development software including ReactJS, HTML5, CSS.
+                <br/>
+                (This site is a great example.)
+              </p>
             </div>
           </div>
           {/* - */}
@@ -31,7 +34,10 @@ const Skills = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faAws} size="2x" /></div>
 
               <h3>Cloud Services</h3>
-              <p>I am experienced with AWS services such as: EC2 (Linux), S3-Bucket, Cognito, Lambda.</p>
+              <p>I am experienced with AWS services such as: EC2 (Linux), S3-Bucket, Cognito, Lambda.
+                <br/>
+                Actually, you are viewing this page thanks to AWS!
+              </p>
             </div>
           </div>
           {/* - */}
@@ -40,7 +46,7 @@ const Skills = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
 
               <h3>MySQL & Flask</h3>
-              <p>I have developed full server side using Flask (Python) and MySQL db.</p>
+              <p>I have developed a full server side using Flask (Python) and MySQL db.</p>
               </div>
           </div>
         </div>

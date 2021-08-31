@@ -38,7 +38,7 @@ const Navbar = () => {
         <Link offset={-110} to="contacts" className="nav-link" href="#">Contact</Link>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href={cv} download>Resume</a>
+        <a className="nav-link" href={cv} download="Matan Yamin - CV">Resume</a>
       </li>
     </ul>
   </div>

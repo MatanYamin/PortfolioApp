@@ -17,7 +17,7 @@ const Header = () => {
                 loop
                 />
                 <div className="py-4">
-                <a href={cv} className="btn-main-offer" download>Resume</a>
+                <a href={cv} className="btn-main-offer" download="Matan Yamin - CV">Resume</a>
                 <Link offset={-110} to="contacts" href="#"><a className="btn-main-offer2">Contact Me</a></Link>
                 </div>
                 {/* <a href={cv} download>Click to download</a> */}

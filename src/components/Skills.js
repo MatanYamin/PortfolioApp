@@ -25,7 +25,7 @@ const Skills = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
 
               <h3>FullStack</h3>
-              <p>Skilled in working with Python, React, C/C++, JS, PHP as Front & BackEnd.</p>
+              <p>Specialized in Full Stack Programming using ReactJS, Python, Flask, REST API, C/C++, PHP, MySQL with great affinity.</p>
             </div>
           </div>
           {/* - */}
@@ -46,7 +46,9 @@ const Skills = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
 
               <h3>MySQL & Flask</h3>
-              <p>I have developed a full server side using Flask (Python) and MySQL db.</p>
+              <p>
+              Skilled in working with large database management, version control tools and web technologies such as MySQL, GitHub, Flask.
+                </p>
               </div>
           </div>
         </div>

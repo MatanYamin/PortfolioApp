@@ -15,12 +15,15 @@ const AboutMe = () => {
           <h1 className="about-heading">about me</h1>
           <p>
             Hello there!
-            <br/>
+            <br/><br/>
              My name is Matan Yamin. <br/>
              I have recently graduated in Software Engineering and I am looking for position in software development.
-             <br/>
+             <br/><br/>
+             I bring deep and solid understanding in variety of programming language such as JavaScript, Python, React, C/C++ and have handled and developed web app projects from scratch.
+             <br/><br/>
              I'm Highly organized with exceptional commitment to task completion and quality assurance when working with computer software
               programs.
+              <br/>
               <br/>
               Check out my latest projects in the <Link offset={-110} className="highlight-link" to="portfolio">Portfolio</Link> section.
               <br/><br/>

@@ -37,7 +37,7 @@ function App() {
                 }} />
     <Navbar />
     <Header />
-    <AboutMe />
+    {/* <AboutMe /> */}
     <Skills />
     <Pofrfolio />
     <Experience />

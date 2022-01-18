@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle, faReact, faAws } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF, faGoogle, faReact, faAws, faUnity } from "@fortawesome/free-brands-svg-icons";
 import { faDesktop, faFileCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
@@ -31,12 +31,12 @@ const Skills = () => {
           {/* - */}
           <div className="col-md-3 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faAws} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faUnity} size="2x" /></div>
 
-              <h3>Cloud Services</h3>
-              <p>I am experienced with AWS services such as: EC2 (Linux), S3-Bucket, Cognito, Lambda.
+              <h3>Game Development</h3>
+              <p>Developing and creating variety of games using C#, Unity platform and more.
                 <br/>
-                Actually, you are viewing this page thanks to AWS!
+                Keep track for my new games to come out!
               </p>
             </div>
           </div>

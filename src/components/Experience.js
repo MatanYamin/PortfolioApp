@@ -8,6 +8,18 @@ const Experience = () => {
         <h1>experience</h1>
       </div>
       <div className="container experience-wrapper">
+        {/*  */}
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>2022, Game Developer</h3>
+            <p>Developing games for all platforms using C#, Unity. 
+              <br/>
+              For <a href="https://play.google.com/store/apps/dev?id=7258376585183782826&hl=en_US&gl=US">Amplez</a>
+            </p>
+          </div>
+        </div>
+        {/*  */}
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
@@ -23,10 +35,10 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
           <h3>2021-2021, PROGRAMMER</h3>
-            <p>•	Revised programming and software development projects by updating code and working to improve requirements.
+            <p>•	Revised web programming and software development projects by updating code and working to improve requirements using JS, HTML5, CSS
               <br/>
               •	Ability to solve complex problems successfully with minimal guidance or help using a logical reasoning technique and a strong
-              attention to detail.
+attention to detail.
               <br/>
               •	Bug tracking using Bitbucket and cooperate with different kind of groups inside the institution.
             </p>
@@ -37,7 +49,7 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
           <h3>2020-2021, TECHNICAL SUPPORT</h3>
-              •	Handling variety of technical issues that required to have a deep research for understanding the source of the problem. 
+              •	Handling variety of technical issues that required to have a deep research for understanding the source of the issue.
           </div>
         </div>
         {/* - */}

@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../me.png";
+import author from "../matanyamin.jpg";
 import { Link } from "react-scroll";
 
 const AboutMe = () => {

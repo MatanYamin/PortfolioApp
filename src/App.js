@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Pofrfolio from "./components/Portfolio";
 // import Testimonials from "./components/Testimonials";
-// import Contacts from "./components/Contacts";
+import Contacts from "./components/Contacts";
 // import { tsParticles } from "tsparticles";
 import Footer from "./components/Footer";
 
@@ -37,12 +37,12 @@ function App() {
                 }} />
     <Navbar />
     <Header />
-    {/* <AboutMe /> */}
+    <AboutMe />
     <Skills />
     <Pofrfolio />
     <Experience />
     {/* <Testimonials /> */}
-    {/* <Contacts /> */}
+    <Contacts />
     <Footer />
     </>
   );

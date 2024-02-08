@@ -12,15 +12,21 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2022, Game Developer</h3>
-            <p>Developing games for all platforms using C#, Unity. 
+            <h3>2022 - 2024, Unity Developer</h3>
+            <p>•	Strong command of Unity system and principles, adept at problem-solving and troubleshooting in a dynamic development environment.
               <br/>
-              For <a href="https://play.google.com/store/apps/dev?id=7258376585183782826&hl=en_US&gl=US">Amplez</a>
+              •	Experienced in C# coding, possessing a profound understanding of Object-Oriented Programming (OOP) principles. Through extensive hands-on work.
+              <br/>
+              •	Collaborating closely with designers
+              <br/>
+              •	Optimized the game's performance (CPU, GPU), identifying and resolving bottlenecks to enhance the overall gaming experience for users.
+            <br/>
+            •	Extensively utilized GitHub, showcasing a strong familiarity with version control and collaborative development practices. 
             </p>
           </div>
         </div>
         {/*  */}
-        <div className="timeline-block timeline-block-right">
+        {/* <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
             <h3>My Projects</h3>
@@ -29,12 +35,12 @@ const Experience = () => {
               See some of them <Link offset={-110} className="highlight-link" to="portfolio">here.</Link>
             </p>
           </div>
-        </div>
+        </div> */}
         {/* - */}
-        <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-          <h3>2021-2021, PROGRAMMER</h3>
+          <h3>2021-2022, WEB DEVELOPER</h3>
             <p>•	Revised web programming and software development projects by updating code and working to improve requirements using JS, HTML5, CSS
               <br/>
               •	Ability to solve complex problems successfully with minimal guidance or help using a logical reasoning technique and a strong
@@ -45,7 +51,7 @@ attention to detail.
           </div>
         </div>
         {/* - */}
-        <div className="timeline-block timeline-block-right">
+        <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
           <h3>2020-2021, TECHNICAL SUPPORT</h3>
@@ -53,7 +59,7 @@ attention to detail.
           </div>
         </div>
         {/* - */}
-        <div className="timeline-block timeline-block-left">
+        <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
           <h3>2017-2021 AZRIELI COLLEGE OF ENGINEERING, JERUSALEM</h3>

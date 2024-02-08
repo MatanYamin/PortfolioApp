@@ -1,6 +1,7 @@
 import React from "react";
 import author from "../matanyamin.jpg";
 import { Link } from "react-scroll";
+import '../App.css';
 
 const AboutMe = () => {
   return (
@@ -11,23 +12,23 @@ const AboutMe = () => {
             <img className="profile-img" src={author} alt="author..." />
           </div>
         </div>
-        <div className="col-lg-6 col-xm-12">
+        <div id="enlargedText" className="col-lg-6 col-xm-12">
           <h1 className="about-heading">about me</h1>
           <p>
             Hello there!
             <br/><br/>
-             My name is Matan Yamin. <br/>
-             I have recently graduated in Software Engineering and I am looking for position in software development.
+            My name is Matan Yamin. <br/><br/>
+             I'm a software engineer specializing in Unity development.
+             <br/><br/> With advanced expertise in C# and object-oriented programming, I'm dedicated to creating clean, maintainable code with keen attention to detail
              <br/><br/>
-             I bring deep and solid understanding in variety of programming language such as JavaScript, Python, React, C/C++ and have handled and developed web app projects from scratch.
-             <br/><br/>
-             I'm Highly organized with exceptional commitment to task completion and quality assurance when working with computer software
-              programs.
+             My experience includes developing games for mobile (iOS, Android), VR, and PC platforms.             <br/><br/>
+             I pride myself on being a highly self-taught individual and a valuable team player.
+              {/* <br/>
               <br/>
-              <br/>
-              Check out my latest projects in the <Link offset={-110} className="highlight-link" to="portfolio">Portfolio</Link> section.
+              Check out my latest projects in the <Link offset={-110} className="highlight-link" to="portfolio">Portfolio</Link> section. */}
               <br/><br/>
-              <small>BTW: This website built With ReactJS, bootstrap, HTML, CSS on ec2 (AWS).</small>
+              <i>Nice to meet you!</i>
+              {/* <small>Nice to meet you!</small> */}
           </p>
         </div>
       </div>

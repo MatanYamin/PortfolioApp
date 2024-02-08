@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle, faReact, faAws, faUnity } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faFileCode, faDatabase } from "@fortawesome/free-solid-svg-icons";
+import { faReact,  faUnity } from "@fortawesome/free-brands-svg-icons";
+import {  faCodeBranch, faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
   return (
@@ -11,44 +11,41 @@ const Skills = () => {
         <div className="row">
           <div className="col-md-3 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faReact} size="2x" /></div>
-              <h3>Web Development</h3>
-              <p>Solid background and advanced knowledge in computer development software including ReactJS, HTML5, CSS.
-                <br/>
-                (This site is a great example.)
-              </p>
-            </div>
-          </div>
-          {/* - */}
-          <div className="col-md-3 col-sm-6">
-            <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
-
-              <h3>FullStack</h3>
-              <p>Specialized in Full Stack Programming using ReactJS, Python, Flask, REST API, C/C++, PHP, MySQL with great affinity.</p>
-            </div>
-          </div>
-          {/* - */}
-          <div className="col-md-3 col-sm-6">
-            <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faUnity} size="2x" /></div>
-
-              <h3>Game Development</h3>
-              <p>Developing and creating variety of games using C#, Unity platform and more.
-                <br/>
-                Keep track for my new games to come out!
+              <h3>Unity Development</h3>
+              <p>Created and managed projects across platforms: Unity 2D, 3D, iOS, Android, VR, and PC. My deep understanding of Unity ensures effective solutions for diverse development needs. 
+                
               </p>
             </div>
           </div>
           {/* - */}
           <div className="col-md-3 col-sm-6">
             <div className="box">
-              <div className="circle"><FontAwesomeIcon className="icon" icon={faDatabase} size="2x" /></div>
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faCodeBranch} size="2x" /></div>
 
-              <h3>MySQL & Flask</h3>
-              <p>
-              Skilled in working with large database management, version control tools and web technologies such as MySQL, GitHub, Flask.
-                </p>
+              <h3>C# OOP</h3>
+              <p>Advanced proficiency in C# and mastery of object-oriented programming, I prioritize crafting clean, maintainable code with attention to details with deep understanding of design patterns and data structures.</p>
+            </div>
+          </div>
+          {/* - */}
+          <div className="col-md-3 col-sm-6">
+            <div className="box">
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faGraduationCap} size="2x" /></div>
+
+              <h3>Software Engineer</h3>
+              <p>As a software engineer, I'm dedicated to crafting efficient code structures and possess exceptional problem-solving skills. These attributes contribute to my effectiveness as a developer.
+              </p>
+            </div>
+          </div>
+          {/* - */}
+          <div className="col-md-3 col-sm-6">
+            <div className="box">
+              <div className="circle"><FontAwesomeIcon className="icon" icon={faReact} size="2x" /></div>
+
+              <h3>Web Development</h3>
+              <p>Extensive expertise and advanced proficiency in web development technologies such as ReactJS, HTML5, and CSS.
+                <br/><br/>
+                (This site is a great example)</p>
               </div>
           </div>
         </div>

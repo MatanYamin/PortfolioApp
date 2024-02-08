@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 /**/
+
+#enlargedText {
+  font-size: 18px; /* Adjust the size as needed */
+  font-weight: bold;
+
+}
+
 :root {
   --primary-white: #ffffff;
   --primary-light-grey: #f4f4f4;

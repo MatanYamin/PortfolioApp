@@ -22,9 +22,9 @@ const Navbar = () => {
       <li className="nav-item active">
         <Link offset={-110} to="home" className="nav-link" href="#">Home <span className="sr-only"></span></Link>
       </li>
-      {/* <li className="nav-item">
+      <li className="nav-item">
         <Link offset={-110} to="about" className="nav-link" href="#">About</Link>
-      </li> */}
+      </li>
       <li className="nav-item">
         <Link offset={-110} to="skills" className="nav-link" href="#">Skills</Link>
       </li>

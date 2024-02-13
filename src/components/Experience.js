@@ -40,7 +40,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-          <h3>2021-2022, WEB DEVELOPER</h3>
+          <h3>2021-2022, Web Developer</h3>
             <p>•	Revised web programming and software development projects by updating code and working to improve requirements using JS, HTML5, CSS
               <br/>
               •	Ability to solve complex problems successfully with minimal guidance or help using a logical reasoning technique and a strong
@@ -54,7 +54,7 @@ attention to detail.
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-          <h3>2020-2021, TECHNICAL SUPPORT</h3>
+          <h3>2020-2021, Technical Support</h3>
               •	Handling variety of technical issues that required to have a deep research for understanding the source of the issue.
           </div>
         </div>

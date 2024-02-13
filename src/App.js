@@ -12,8 +12,6 @@ import Contacts from "./components/Contacts";
 // import { tsParticles } from "tsparticles";
 import Footer from "./components/Footer";
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-
 
 
 function App() {

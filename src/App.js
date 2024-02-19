@@ -2,51 +2,55 @@ import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
 import Header from './components/Header';
-import Particles from 'react-particles-js';
+// import Particles from "react-particles";
 import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
-import Pofrfolio from "./components/Portfolio";
+import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
-// import { tsParticles } from "tsparticles";
 import Footer from "./components/Footer";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import Terms from "./components/Terms";
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 
 
 function App() {
   return (
-    <>
-    <Particles 
-    className="particles-canvas"
-                params={{
-                    particles: {
-                      number: {
-                        value: 30,
-                        density: {
-                          enable: true,
-                          value_area: 900
-                        }
-                      },
-                      shape: {
-                        type: "circle",
-                        stroke: {
-                          width: 6,
-                          color: "#f9ab00"
-                        }
-                      }
-                    }
-                }} />
+<>
 
+<Router>
+        <Routes>
+          {/* Define route for PrivacyPolicy component */}
+          <Route path="/privacy_policy" element={<PrivacyPolicy />} />
+          <Route path="/terms_conditions" element={<Terms />} />
+
+          {/* Define route for other components */}
+          <Route path="/" element={<MainContent />} />
+        </Routes>
+      </Router>
+    </>
+  );
+}
+
+// MainContent component to encapsulate all other components
+function MainContent() {
+  return (
+    <>
     <Navbar />
-    <Header />
-    <AboutMe />
-    <Skills />
-    <Pofrfolio />
-    <Experience />
-    {/* <Testimonials /> */}
-    <Contacts />
-    <Footer />
+        <Header />
+      <AboutMe />
+      <Skills />
+      <Portfolio />
+      <Experience />
+      <Contacts />
+      <Footer />
+
     </>
   );
 }

@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
         <div id="enlargedText" className="col-lg-15 col-xm-12">
           <h1 className="about-heading">Privacy Policy</h1>
           <p>
-Matan Yamin built the TV Remote Control app as a Free app. This SERVICE is provided by Matan Yamin at no cost and is intended for use as is.
+myapps. built the TV Remote Control app as a Free app. This SERVICE is provided by myapps. at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 

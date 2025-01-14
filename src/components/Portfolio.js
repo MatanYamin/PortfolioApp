@@ -1,21 +1,11 @@
 import React from "react";
-import spingtheglobeCover from "../images/SpinTheGlobeCover.png"
-import snakesCover from "../images/SnakesCover.png";
-import snakedLTD from "../SnakesTrailer.mp4"
-import matanportfolio from "../images/matan-portfolio.png";
 import tingerTrainer from "../TingerTrailer.mp4"
-import fingers1 from "../images/fingertipssmall.png";
-import fingers2 from "../images/fingertips.png";
 import tingerCover from "../images/TingerCover.png"
-import skycleanerdemo from "../skycleanerpreview.mp4"
-import spintheglobeTrailer from "../SpinTheGlobeTrailer-com.mp4"
-import portfolioVideo from "../portfolioPreview.mp4"
 import GitHubIcon from "@material-ui/icons/GitHub";
 import YouTubeIcon from "@material-ui/icons/YouTube";
 import AndroidIcon from "@material-ui/icons/Android";
-import PCicon from "@material-ui/icons/Computer";
 import AppleIcon from "@material-ui/icons/Apple";
-import {  faCodeBranch, faGraduationCap, faVrCardboard } from "@fortawesome/free-solid-svg-icons";
+import { faVrCardboard } from "@fortawesome/free-solid-svg-icons";
 // import VRIcon from "@material-ui/icons/VR";
 
 
@@ -67,7 +57,7 @@ const Pofrfolio = () => {
       <>
   <h1>Snakes LTD</h1>
 
-        <video className="portfolio-image-popupbox" src={snakedLTD} loop autoPlay type="video/mp4" muted/>
+        <video className="portfolio-image-popupbox"  loop autoPlay type="video/mp4" muted/>
         <p>Casual Snakes Combat. Kill other snakes and grow as much as you can!
           <br/>
           <li>Against AI mode</li>
@@ -104,7 +94,7 @@ const Pofrfolio = () => {
     const content = (
       <>
       <h1>Spin The Globe</h1>
-        <video className="portfolio-image-popupbox" src={spintheglobeTrailer} loop autoPlay type="video/mp4"/>
+        <video className="portfolio-image-popupbox"  loop autoPlay type="video/mp4"/>
         <p>You know that game you played with your friends where you spin a globe and randomly stop it? 
         <br/>
         Our game brings that excitement to life! 
@@ -164,14 +154,14 @@ const Pofrfolio = () => {
           </div>
 
           <div className="portfolio-image-box" onClick={openPopupboxAmplez}>
-            <img className="portfolio-image" src={snakesCover} alt="Amplez Project..." />
+            <img className="portfolio-image"  alt="Amplez Project..." />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
         
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
-            <img className="portfolio-image" src={spingtheglobeCover} alt="" />
+            <img className="portfolio-image" alt="" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>

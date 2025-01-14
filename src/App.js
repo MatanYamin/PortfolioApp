@@ -43,14 +43,14 @@ function MainContent() {
   return (
     <>
     <Navbar />
-        <Header />
-      <AboutMe />
-      <Skills />
-      <Portfolio />
-      <Experience />
-      <Contacts />
-      <Footer />
-
+    <Header />
+    <AboutMe />
+    <Skills />
+    {/* <Portfolio /> */}
+    {/* <Experience /> */}
+    <Testimonials />
+    <Contacts />
+    <Footer />
     </>
   );
 }

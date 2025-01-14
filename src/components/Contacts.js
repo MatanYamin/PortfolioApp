@@ -36,8 +36,9 @@ const Contacts = () => {
     return (
         <div id="contacts" className="contacts">
             <div className="text-center">
-            <h1>Contact Me</h1>
-            <p>Please feel free to contact me if you need any further information.</p>   
+            <h1>Contact Us</h1>
+            <p>Have questions or need support? Reach out to us—we’re happy to help!</p>
+
             <span className="success-message">{successMessage}</span>         
             </div>
             <div className="container">
@@ -120,7 +121,7 @@ const Contacts = () => {
                         </span>
                         <button
                         className="btn-main-offer contact-btn"
-                        type="submit">Contact Me</button>
+                        type="submit">Send</button>
                     </div>
                 </div>
                 </form>

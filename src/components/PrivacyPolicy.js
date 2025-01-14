@@ -1,6 +1,4 @@
 import React from "react";
-import author from "../matanyamin.jpg";
-import { Link } from "react-scroll";
 import '../App.css';
 
 const PrivacyPolicy = () => {

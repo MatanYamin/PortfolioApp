@@ -5,8 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import avatar1 from "../images/avatars/avatar-1.png";
 import avatar2 from "../images/avatars/avatar-2.png";
 import avatar3 from "../images/avatars/avatar-3.png";
-import avatar4 from "../images/avatars/avatar-4.png";
-
 
 const TestimonialsCarousel = () => {
   return (
@@ -21,33 +19,38 @@ const TestimonialsCarousel = () => {
       <>
         <img src={avatar1} alt="John Doe 1" />
         <div className="myCarousel">
-          <h3>John Doe 1</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe dicta blanditiis, molestias eum excepturi quod fugiat veniam!</p>
+          <h3>AC Remote for LG</h3>
+          <p>
+            The ultimate <b>AC remote control app</b> for LG air conditioners.  
+            Used by <b>millions worldwide</b>, it lets you <b>adjust temperature, change modes, and optimize settings</b> with ease.  
+            Trusted for its <b>simplicity, reliability, and advanced features</b>.
+          </p>
         </div>
       </>
       <>
         <img src={avatar2} alt="Jane Doe 2" />
         <div className="myCarousel">
-          <h3>Jane Doe 2</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe dicta blanditiis, molestias eum excepturi quod fugiat veniam!</p>
+          <h3>Tinger</h3>
+          <p>
+            A thrilling <b>maze navigation game</b> by <span className="croogla-font">myapps</span><span className="blue-dot">.</span>.  
+            Test your reflexes as you <b>maneuver through tunnels, avoid obstacles</b>, and push your limits.  
+            With <b>increasing difficulty</b>, Tinger keeps you hooked on <b>beating high scores</b>.
+          </p>
         </div>
       </>
       <>
         <img src={avatar3} alt="John Doe 3" />
         <div className="myCarousel">
-          <h3>John Doe 3</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe dicta blanditiis, molestias eum excepturi quod fugiat veniam!</p>
-        </div>
-      </>
-      <>
-        <img src={avatar4} alt="John Doe 4" />
-        <div className="myCarousel">
-          <h3>John Doe 4</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis ratione sequi saepe dicta blanditiis, molestias eum excepturi quod fugiat veniam!</p>
+          <h3>Remote for ChromeCast</h3>
+          <p>
+            A feature-packed <b>remote control app for Chromecast</b> on <b>iOS & Android</b>.  
+            Enjoy a <b>smooth, intuitive experience</b> while <b>controlling streaming, adjusting volume, and managing settings</b>.  
+            Loved by <b>thousands of users</b>, it's a <b>must-have for Chromecast owners</b>.
+          </p>
         </div>
       </>
     </Carousel>
-  )
-}
+  );
+};
 
 export default TestimonialsCarousel;

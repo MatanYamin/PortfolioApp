@@ -1,5 +1,5 @@
 import React from "react";
-import author from "../matanyamin.jpg";
+import author from "../assets/myapps_logo6.png";
 import { Link } from "react-scroll";
 import '../App.css';
 
@@ -13,27 +13,27 @@ const AboutMe = () => {
           </div>
         </div>
         <div id="enlargedText" className="col-lg-6 col-xm-12">
-          <h1 className="about-heading">about me</h1>
-          <p>
-            Hello there!
-            <br/><br/>
-            My name is Matan Yamin. <br/><br/>
-             I'm a software engineer specializing in Unity development.
-             <br/><br/> With advanced expertise in C# and object-oriented programming, I'm dedicated to creating clean, maintainable code with keen attention to detail
-             <br/><br/>
-             My experience includes developing games for mobile (iOS, Android), VR, and PC platforms.             <br/><br/>
-             I pride myself on being a highly self-taught individual and a valuable team player.
-              {/* <br/>
-              <br/>
-              Check out my latest projects in the <Link offset={-110} className="highlight-link" to="portfolio">Portfolio</Link> section. */}
-              <br/><br/>
-              <i>Nice to meet you!</i>
-              {/* <small>Nice to meet you!</small> */}
-          </p>
+            <h1 className="about-heading">about us</h1>
+            <p>
+                Welcome to <span className="croogla-font">myapps</span><span className="blue-dot">.</span>  
+                <br/><br/>
+                We specialize in developing <b>high-quality mobile applications</b> and <b>engaging games</b> for <b>iOS and Android</b>.  
+                <br/><br/>
+                At <span className="croogla-font">myapps</span><span className="blue-dot">.</span>, we focus on creating <b>user-friendly and innovative solutions</b> designed to enhance digital experiences.  
+                <br/><br/>
+                Our expertise includes <b>cross-platform app development, interactive game design, and cutting-edge mobile solutions</b>.  
+                <br/><br/>
+                With a passion for technology and a commitment to excellence, <span className="croogla-font">myapps</span><span className="blue-dot">.</span> is dedicated to pushing boundaries and delivering <b>smart, efficient, and future-ready software</b>.  
+                <br/><br/>
+                Our apps and games are enjoyed by <b>millions of users worldwide</b>, making an impact in <b>over 100 countries</b>.  
+                We take pride in creating software that is <b>trusted and loved by people all around the globe</b>.  
+                <br/><br/>
+                <i>Join us in shaping the future of mobile innovation!</i>
+            </p>
         </div>
       </div>
     </div>
   )
 }
 
-export default AboutMe
+export default AboutMe;

@@ -1,5 +1,4 @@
 import React from "react";
-import tingerTrainer from "../TingerTrailer.mp4"
 import tingerCover from "../images/TingerCover.png"
 import GitHubIcon from "@material-ui/icons/GitHub";
 import YouTubeIcon from "@material-ui/icons/YouTube";
@@ -24,7 +23,7 @@ const Pofrfolio = () => {
     const content = (
       <>
       <h1>TINGER</h1><h4>Advanture 2D game</h4>
-        <video className="portfolio-image-popupbox" src={tingerTrainer} loop autoPlay type="video/mp4"/>
+        <video className="portfolio-image-popupbox" loop autoPlay type="video/mp4"/>
         <p>Get ready for a finger-tapping sensation with 'Tinger' – the dynamic fusion of Tunnel and Finger! 
           <br/>
           Immerse yourself in an exhilarating 2D adventure where your only guide is your trusty finger.

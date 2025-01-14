@@ -16,7 +16,7 @@ const Header = () => {
                     "App Development",
                     "Game Development",
                     "iOS and Android Apps",
-                    "Apps Used by Millions of Users",
+                    "Millions of Users",
                     "Global Reach, Local Impact",
                     "Advanced Mobile Solutions",
                     "Cutting-Edge Technology",

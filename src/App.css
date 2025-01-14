@@ -659,7 +659,7 @@ textarea.form-control {
 .footer {
   background: var(--primary-black);
   color: var(--primary-dark-grey);
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .footer a {
@@ -677,22 +677,29 @@ textarea.form-control {
   margin-bottom: 0;
 }
 
+/* 📌 Fix spacing issues on mobile */
+@media (max-width: 768px) {
+  .footer .col {
+    margin-bottom: 1rem; /* Adds space between sections */
+  }
+  .footer .row {
+    flex-direction: column; /* Ensures correct stacking */
+    align-items: center; /* Centers content */
+  }
+  .footer .d-flex.justify-content-center {
+    margin-top: 1.5rem; /* Adds spacing between links and social icons */
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Center text on mobile */
+@media (max-width: 768px) {
+  #matan {
+    text-align: center;
+    display: block;
+    width: 100%;
+  }
+  
+  .footer .d-flex {
+    justify-content: center; /* Ensures horizontal centering */
+  }
+}

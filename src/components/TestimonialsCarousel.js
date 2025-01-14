@@ -19,11 +19,11 @@ const TestimonialsCarousel = () => {
       <>
         <img src={avatar1} alt="John Doe 1" />
         <div className="myCarousel">
-          <h3>AC Remote for LG</h3>
+          <h3>Remote for LG</h3>
           <p>
-            The ultimate <b>AC remote control app</b> for LG air conditioners.  
-            Used by <b>millions worldwide</b>, it lets you <b>adjust temperature, change modes, and optimize settings</b> with ease.  
-            Trusted for its <b>simplicity, reliability, and advanced features</b>.
+            The best <b>AC remote app</b> for LG users.  
+            Adjust temperature, switch modes, and optimize everything.  
+            Simple, reliable, and used by <b>millions worldwide</b>.
           </p>
         </div>
       </>
@@ -32,20 +32,20 @@ const TestimonialsCarousel = () => {
         <div className="myCarousel">
           <h3>Tinger</h3>
           <p>
-            A thrilling <b>maze navigation game</b> by <span className="croogla-font">myapps</span><span className="blue-dot">.</span>.  
-            Test your reflexes as you <b>maneuver through tunnels, avoid obstacles</b>, and push your limits.  
-            With <b>increasing difficulty</b>, Tinger keeps you hooked on <b>beating high scores</b>.
+            A fast-paced <b>maze game</b> by <span className="croogla-font">myapps</span><span className="blue-dot">.</span>  
+            Navigate tunnels, dodge obstacles, and beat high scores.  
+            Addictive, challenging, and fun!
           </p>
         </div>
       </>
       <>
         <img src={avatar3} alt="John Doe 3" />
         <div className="myCarousel">
-          <h3>Remote for ChromeCast</h3>
+        <h3>Remote for ChromeCast</h3>
           <p>
-            A feature-packed <b>remote control app for Chromecast</b> on <b>iOS & Android</b>.  
-            Enjoy a <b>smooth, intuitive experience</b> while <b>controlling streaming, adjusting volume, and managing settings</b>.  
-            Loved by <b>thousands of users</b>, it's a <b>must-have for Chromecast owners</b>.
+            A powerful <b>remote app for Chromecast</b> on <b>iOS & Android</b>.  
+            Control streaming, adjust volume, and manage settings easily.  
+            <b>Trusted by many users worldwide</b>.
           </p>
         </div>
       </>

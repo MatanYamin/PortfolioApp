@@ -11,8 +11,8 @@ const Navbar = () => {
         <div className="container">
   <a className="navbar-brand" href="">
     {/* <img className="logo" src={logo} alt="logo..." /> */}
-    {/* <h4 id="matan"><FontAwesomeIcon icon={faCodeBranch} style={{color: "#fff"}}/> Matans Yamin</h4> */}
-    <img className="logo" src={onlyTextLogo} alt="logo" />
+    <h2 id="matan"><span className="croogla-font">myapps</span><span className="blue-dot">.</span> </h2>
+    {/* <img className="logo" src={onlyTextLogo} alt="logo" /> */}
 
         {/* <img className="logo" src={onlyTextLogo} alt="logo" /> */}
 

@@ -1,15 +1,14 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
-import config from "../configur";
 
 const Contacts = () => {
     const [successMessage, setSuccessMessage] = useState("");
     const { register, handleSubmit, formState: { errors }} = useForm();
     
-    const servicesID = config.servicesID;
-    const templatID = config.templatID;
-    const userID = config.userID;
+    const servicesID = 'service_matanyamin';
+    const templatID = 'template_cg56vd9';
+    const userID = 'user_UvVe7aKF3U2tgzVmusowr';
 
     const onSubmit = (data, r) => {
         sendEmail(
